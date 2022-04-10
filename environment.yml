@@ -1,0 +1,7 @@
+name: sms_alert #Environment name
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - twilio
+    - pandas 1.4.0
